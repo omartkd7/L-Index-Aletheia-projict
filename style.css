@@ -1,3 +1,32 @@
-.margen {
-    margin: 20px;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(118, 109, 109);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heropart {
+    background-image: url('bg.jpg');
+    background-color: rgb(134, 134, 134, 0.248);
+    color: rgb(0, 0, 0);
+    padding: 300px;
+    text-align: center;
+}
+
+.serchbar {
+    background-color: rgb(134, 134, 134, 0.248);
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    text-align: center;
 }
