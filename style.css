@@ -8,12 +8,21 @@ body {
 }
 
 header {
+    margin-bottom: 0px;
     background-color: rgb(118, 109, 109);
     color: white;
-    padding: 20px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.minelogo {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .minenivbar {
